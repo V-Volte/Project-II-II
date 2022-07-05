@@ -1,0 +1,37 @@
+h1{
+    font-family: raleway,sans-serif;
+    font-weight: 600;
+}
+button#login{
+    background-color: #41bbff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: 0.25s;
+}
+button#login:hover{
+    background-color: #219bdf;
+}
+
+label#rememberme{
+    font-size: 0.8em;
+}
+
+input#remember{
+    margin-right: 10px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+.logincontainer{
+    display:grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    row-gap:25px;
+}
