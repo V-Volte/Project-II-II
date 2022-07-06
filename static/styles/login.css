@@ -1,10 +1,14 @@
 h1{
     font-family: raleway,sans-serif;
     font-weight: 600;
+    font-size: 2.5em;
+}
+body{
+    margin: 0;
 }
 button#login{
     background-color: #41bbff;
-    padding: 15px 40px;
+    padding: 12.5px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -19,8 +23,12 @@ label#rememberme{
     font-size: 0.8em;
 }
 
+.logincontainer a{
+    color: #074d9f;
+}
 input#remember{
     margin-right: 10px;
+    width: auto;
 }
 
 .container{
@@ -34,4 +42,18 @@ input#remember{
     grid-template-columns: auto;
     justify-content: space-between;
     row-gap:25px;
+}
+img#pikachu{
+    width: 20vw;
+    height: 50vh;
+    float: right;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
 }
