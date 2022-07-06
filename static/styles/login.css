@@ -1,12 +1,14 @@
-h1{
-    font-family: raleway,sans-serif;
+h1 {
+    font-family: raleway, sans-serif;
     font-weight: 600;
     font-size: 2.5em;
 }
-body{
+
+body {
     margin: 0;
 }
-button#login{
+
+button#login {
     background-color: #41bbff;
     padding: 12.5px 30px;
     border: none;
@@ -15,45 +17,48 @@ button#login{
     color: white;
     transition: 0.25s;
 }
-button#login:hover{
+
+button#login:hover {
     background-color: #219bdf;
 }
 
-label#rememberme{
+label#rememberme {
     font-size: 0.8em;
 }
 
-.logincontainer a{
+.logincontainer a {
     color: #074d9f;
 }
-input#remember{
+
+input#remember {
     margin-right: 10px;
     width: auto;
 }
 
-.container{
-    display:flex;
+.container {
+    display: flex;
     flex-direction: column;
 }
 
-.logincontainer{
-    display:grid;
+.logincontainer {
+    display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto;
     justify-content: space-between;
-    row-gap:25px;
+    row-gap: 25px;
 }
-img#pikachu{
+
+img#pikachu {
     width: 20vw;
     height: 50vh;
     float: right;
 }
-.main{
+
+.main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    
 }
