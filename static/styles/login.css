@@ -4,10 +4,6 @@ h1 {
     font-size: 2.5em;
 }
 
-body {
-    margin: 0;
-}
-
 button#login {
     background-color: #41bbff;
     padding: 12.5px 30px;
@@ -23,7 +19,7 @@ button#login:hover {
 }
 
 label#rememberme {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .logincontainer a {
@@ -33,6 +29,7 @@ label#rememberme {
 input#remember {
     margin-right: 10px;
     width: auto;
+    height: auto;
 }
 
 .container {
@@ -60,5 +57,5 @@ img#pikachu {
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
 }
