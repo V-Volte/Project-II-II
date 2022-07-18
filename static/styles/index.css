@@ -1,0 +1,42 @@
+
+.discord{
+    background-color: #5865F2 ;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 7.5px;
+    
+}
+.footer{
+    background-color: #bbbbbb;
+    height: 10vh;
+    
+
+}
+body{
+    /* grid-template-rows: 1/4 2/4 1/4; */
+    height: 100vh;
+    display: flex;  
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.container{
+    height: 88.5vh;
+    
+}
+.gradientline {
+    height: 1.5vh !important;
+}
+#footermarginbox{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+#footerbox{
+    width: 80vw;
+}
+.homepage-navbar{
+    
+}
